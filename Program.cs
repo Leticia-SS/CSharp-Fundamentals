@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using C__Fundamentals;
 
 class Program
@@ -17,5 +18,12 @@ class Program
         IForma iforma = retangulo; 
 
         Console.ReadKey();
+
+        ArrayList ArrayList = new ArrayList(); // esse array list ocupa mais espaço de memória que a forma abaixo
+
+        
+        IEnumerable arrayListIEnumerable = new ArrayList();
+
+
     }
 }
