@@ -11,9 +11,10 @@ class Program
 
         retangulo.CalcularArea();
 
-        // IForma iforma = new IForma(); vAI DAR ERRO
+        // IForma iforma = new IForma(); // Vai dar erro
 
-        IForma iforma = new Retangulo();
+        // IForma iforma = new Retangulo(); Pode fazer
+        IForma iforma = retangulo; 
 
         Console.ReadKey();
     }

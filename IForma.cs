@@ -8,7 +8,7 @@ namespace C__Fundamentals
 {
     internal interface IForma
     {
-        double CalcularArea();
+        public double CalcularArea();
 
     }
 }
